@@ -101,6 +101,19 @@ npm start
 ```
 Opens at http://localhost:3000
 
+# Add Food Data to the Database
+Uncomment the commented part in insertFood method and populate the data by calling api using postman only once.
+POST request URL: http://localhost:8080/api/food
+with this body:
+```bash
+{
+    "name": "Pineapple Banana Smoothie",
+    "description": "In a blender, combine pineapple chunks, milk, Greek yogurt, banana, and honey. Blend until smooth and creamy. Add ice cubes and blend again until the smoothie is chilled. Pour into a glass and enjoy the tropical goodness of this Pineapple Banana Smoothie!",
+    "category": "Beverages",
+    "image": "https://cdn.dummyjson.com/recipe-images/50.webp"
+    ,"price": 70.20
+}```
+
 ### 4. Verify Setup
 Backend Health: http://localhost:8080
 Frontend: http://localhost:3000
