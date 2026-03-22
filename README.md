@@ -112,7 +112,8 @@ with this body:
     "category": "Beverages",
     "image": "https://cdn.dummyjson.com/recipe-images/50.webp"
     ,"price": 70.20
-}```
+}
+```
 
 ### 4. Verify Setup
 Backend Health: http://localhost:8080
